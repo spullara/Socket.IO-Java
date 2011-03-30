@@ -294,17 +294,17 @@
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-client</artifactId>
-                <version>8.0.0.M2</version>
+                <version>7.2.2.v20101205</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-continuation</artifactId>
-                <version>8.0.0.M2</version>
+                <version>7.2.2.v20101205</version>
             </dependency>
             <dependency>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-websocket</artifactId>
-                <version>8.0.0.M2</version>
+                <version>7.2.2.v20101205</version>
             </dependency>
             <dependency>
                 <groupId>org.testatoo.container</groupId>

@@ -545,7 +545,7 @@ if (typeof window != 'undefined'){
 	WS.prototype._prepareUrl = function(){
 		return (this.base.options.secure ? 'wss' : 'ws') 
 		+ '://' + this.base.host 
-		+ ':' + this.base.options.port
+		+ ':' + this.base.options.wsport ? this.base.options.wsport : this.base.options.port
 		+ '/' + this.base.options.resource
 		+ '/' + this.type
 		+ '/' + (this.sessionid ? this.sessionid : 'null');
